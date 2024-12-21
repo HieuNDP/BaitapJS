@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.rikkei.com/en/inc/uploads/2019/12/1576648405-270952557.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.member-grid {  
+    display: flex;
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}  
+
+.member-grid div {  
+    background: white;  
+    border-radius: 15px;  
+    overflow: hidden;  
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);  
+    padding: 15px;  
+    padding: 10px; 
+    margin: 0 auto; 
+}  
+
+
+.member-grid .info {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.member-grid h3 {
+    margin: 0 0 10px 0;
+}
+
+.member-grid p {
+    margin: 5px 0;
+}
